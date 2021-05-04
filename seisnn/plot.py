@@ -228,7 +228,7 @@ def plot_map(geometry, events):
     stamen_terrain = img_tiles.Stamen('terrain-background')
     fig = plt.figure()
     ax = fig.add_subplot(1, 1, 1, projection=stamen_terrain.crs)
-    ax.add_image(stamen_terrain, 10)
+    ax.add_image(stamen_terrain, 9)
 
     if events:
         eq = []
